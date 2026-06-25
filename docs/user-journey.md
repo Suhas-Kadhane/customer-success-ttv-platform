@@ -86,8 +86,33 @@ Assign onboarding milestones and track progress.
 * Milestone Completion %
 
 ---
+## Stage 4: Milestone Tracking
 
-## Stage 4: Product Adoption
+### Customer Goal
+
+Track onboarding progress and understand what tasks remain before achieving value.
+
+### CSM Goal
+
+Monitor milestone completion, identify delays, and proactively remove onboarding blockers.
+
+### Risks
+
+* Missed onboarding deadlines
+* Delayed stakeholder responses
+* Incomplete implementation tasks
+* Lack of accountability
+
+### Metrics
+
+* Milestone Completion %
+* Overdue Milestones
+* Days Behind Schedule
+* Onboarding Progress %
+
+---
+
+## Stage 5: Product Adoption
 
 ### Customer Goal
 
@@ -110,7 +135,7 @@ Drive feature adoption and user engagement.
 
 ---
 
-## Stage 5: Time-to-Value Achieved
+## Stage 6: Time-to-Value Achieved
 
 ### Customer Goal
 
@@ -132,7 +157,7 @@ Validate customer outcomes and document success.
 
 ---
 
-## Stage 6: Health Monitoring
+## Stage 7: Health Monitoring
 
 ### Customer Goal
 
@@ -155,7 +180,7 @@ Monitor account health and identify risks.
 
 ---
 
-## Stage 7: Renewal & Expansion
+## Stage 8: Renewal & Expansion
 
 ### Customer Goal
 
