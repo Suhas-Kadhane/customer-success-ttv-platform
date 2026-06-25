@@ -61,12 +61,12 @@ Sprint 1 Ready – Solution Design Phase
 
 ## Documentation
 
-| Document        | Description                   |
-| --------------- | ----------------------------- |
-| PRD.md          | Product Requirements Document |
-| personas.md     | Customer Persona Definitions  |
-| user-journey.md | Customer Journey Mapping      |
-| mvp-features.md | MVP Scope & Product Roadmap   |
+### Product Discovery
+
+* [Product Requirements Document](docs/PRD.md)
+* [Customer Personas](docs/personas.md)
+* [Customer Journey Map](docs/user-journey.md)
+* [MVP Features & Roadmap](docs/mvp-features.md)
 
 ---
 
