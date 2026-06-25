@@ -4,6 +4,21 @@
 
 This journey represents the lifecycle of an enterprise customer from onboarding through adoption, value realization, and renewal.
 
+## Customer Journey Flow
+
+```mermaid
+flowchart TD
+
+A[Customer Created]
+--> B[Kickoff Call]
+--> C[Onboarding Plan Created]
+--> D[Milestone Tracking]
+--> E[Product Adoption]
+--> F[Time-to-Value Achieved]
+--> G[Health Monitoring]
+--> H[Renewal and Expansion]
+```
+
 ---
 
 ## Stage 1: Customer Created
@@ -160,3 +175,4 @@ Drive renewals and identify growth opportunities.
 * Renewal Rate
 * Expansion Opportunities
 * Customer Satisfaction
+
