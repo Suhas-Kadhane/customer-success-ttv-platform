@@ -29,7 +29,7 @@ A[Customer Created]
 
 ## Status
 
-✅ Sprint 1 Completed – Foundation & Backend Setup
+✅ Sprint 2 Completed – Customer Management Backend
 
 ---
 
@@ -130,19 +130,28 @@ frontend/
 
 ---
 
-## Current Sprint
+## Completed: Sprint 2 – Customer Management Backend ✅
 
-### Sprint 2 – Backend Development
+### Deliverables
 
-Planned Deliverables
+* PostgreSQL Integration
+* SQLAlchemy Database Models
+* Customer API
+* Create Customer Endpoint
+* Customer Validation using Pydantic
+* Dependency Injection
+* Database Persistence
+* Swagger API Testing
 
-* Customer Management APIs
-* PostgreSQL Database Integration
-* SQLAlchemy Models
-* CRUD Operations
-* Customer Validation
-* Error Handling
-* API Testing
+### Technologies Used
+
+* FastAPI
+* PostgreSQL
+* SQLAlchemy ORM
+* Pydantic
+* Swagger UI / OpenAPI
+* Git
+* GitHub
 
 ---
 
