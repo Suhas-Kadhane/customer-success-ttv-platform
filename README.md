@@ -33,6 +33,21 @@ A[Customer Created]
 
 ---
 
+## Current Sprint
+
+### Sprint 3 – Customer CRUD Operations 🚧
+
+### Planned Deliverables
+
+* Get Customer API
+* Get All Customers API
+* Update Customer API
+* Delete Customer API
+* Database Query Operations
+* CRUD Testing using Swagger UI
+
+---
+
 ## Completed: Sprint 0 – Product Discovery & Planning ✅
 
 ### Deliverables
