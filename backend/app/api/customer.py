@@ -50,3 +50,47 @@ def get_all_customers(
     customers = db.query(Customer).all()
 
     return customers
+
+
+@router.put("/customers/{customer_id}", response_model=CustomerResponse)
+def update_customer(
+    customer_id: int,
+    customer: CustomerCreate,
+    db: Session = Depends(get_db)
+):
+    db_customer = db.query(Customer).filter(Customer.id == customer_id).first()
+
+    if db_customer is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Customer not found"
+        )
+
+    db_customer.company_name = customer.company_name
+    db_customer.industry = customer.industry
+
+    db.commit()
+    db.refresh(db_customer)
+
+    return db_customer
+
+
+@router.delete("/customers/{customer_id}")
+def delete_customer(
+    customer_id: int,
+    db: Session = Depends(get_db)
+):
+    db_customer = db.query(Customer).filter(Customer.id == customer_id).first()
+
+    if db_customer is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Customer not found"
+        )
+
+    db.delete(db_customer)
+    db.commit()
+
+    return {
+        "message": "Customer deleted successfully"
+    }

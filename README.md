@@ -29,22 +29,22 @@ A[Customer Created]
 
 ## Status
 
-✅ Sprint 2 Completed – Customer Management Backend
+✅ Sprint 3 Completed – Customer CRUD Operations
 
 ---
 
 ## Current Sprint
 
-### Sprint 3 – Customer CRUD Operations 🚧
+### Sprint 4 – Customer Onboarding Management 🚧
 
 ### Planned Deliverables
 
-* Get Customer API
-* Get All Customers API
-* Update Customer API
-* Delete Customer API
-* Database Query Operations
-* CRUD Testing using Swagger UI
+* Onboarding Plan APIs
+* Customer Onboarding Assignment
+* Milestone Management
+* Onboarding Timeline Tracking
+* Onboarding Status Updates
+* Swagger API Testing
 
 ---
 
@@ -168,6 +168,31 @@ frontend/
 * Git
 * GitHub
 
+---
+
+## Completed: Sprint 3 – Customer CRUD Operations ✅
+
+### Deliverables
+
+* Get Customer by ID API
+* Get All Customers API
+* Update Customer API
+* Delete Customer API
+* Complete CRUD Operations
+* SQLAlchemy Query Operations
+* PostgreSQL CRUD Persistence
+* Swagger API Testing
+
+### Technologies Used
+
+* FastAPI
+* PostgreSQL
+* SQLAlchemy ORM
+* Pydantic
+* Swagger UI / OpenAPI
+* Git
+* GitHub
+* 
 ---
 
 ## Product Roadmap
